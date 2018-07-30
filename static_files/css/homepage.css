@@ -1,0 +1,59 @@
+/*
+ * CSS for the homepage
+ *
+ */
+
+/* Jumbotron */
+
+.jumbrotron {
+  margin: auto;
+}
+
+.jumbrotron img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+/* content */
+
+.content {
+  padding-top: 200px;
+}
+
+/* contact info footer */
+
+.contact-info {
+  margin: auto;
+  background: #475258;
+}
+
+.contact-info ul {
+  background: inherit;
+  width: 50%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.contact-info li {
+  background: inherit;
+  display: inline-block;
+  align-items: center;
+  padding-right: 20px;
+  color: #EEE;
+}
+
+.contact-info li a {
+  background: inherit;
+}
+
+.contact-info li img {
+  background: inherit;
+  width: 50px;
+  height: 50px;
+}

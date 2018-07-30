@@ -1,0 +1,38 @@
+/*
+ * CSS that can be applied to mutliple pages on the website
+ * e.g. header, navigation bar, fonts, etc
+ *
+ */
+
+ * {
+   font-family: sans-serif;
+   margin: 0;
+   padding: 0;
+   background: #010A1A;
+ }
+
+ /* Header */
+
+.header {
+  margin: auto;
+  display: flex;
+  align-items:center;
+  background: #475258;
+  position: sticky;
+  top: 0;
+}
+
+.header #home-title {
+  background: inherit;
+  color: #DDD;
+  font-size: 50px;
+  text-decoration: none;
+
+}
+
+.header #home-logo {
+  background: inherit;
+  height: 50px;
+  width: 42px;
+  padding: 10px;
+}
